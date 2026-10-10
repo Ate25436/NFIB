@@ -1,0 +1,23 @@
+[project]
+name = "negation-focus-annotation-dataset"
+version = "0.1.0"
+description = "Reproduction and evaluation tools for the Negation Focus Annotation Dataset"
+readme = "README.md"
+license = "CC-BY-4.0"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.79.0",
+    "google-genai>=1.0.0",
+    "jsonschema>=4.0,<5",
+    "openai>=2.26.0",
+    "python-dotenv>=1.0.0",
+    "tiktoken>=0.13.0",
+    "vllm==0.23.0",
+    "wandb>=0.28.0",
+]
+
+[project.optional-dependencies]
+vllm = [
+    "transformers==5.11.0",
+    "vllm==0.23.0",
+]

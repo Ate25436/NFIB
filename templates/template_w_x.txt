@@ -1,0 +1,108 @@
+# Logically Correct Sentence Selection
+
+You will be given a context and several answer options in the following format:
+
+```
+Context:
+[sentences]
+
+Options:
+a. [sentences]
+b. [sentences]
+...
+x. None of the above
+```
+
+## Task
+
+Your job is to choose a logically correct option based on the context.
+
+If there are more than one logically correct options, choose the one that is closest to the context.
+
+If no options are logically correct, choose x (None of the above).
+
+An option is not treated as logically correct if it meets one of the following conditions:
+
+- The option conflicts with the context.
+- The context provides insufficient information to determine whether the option is logically correct.
+
+When you judge the logical correctness of each option, rely solely on the information included in the context and not on common knowledge.
+
+## Examples
+
+Example 1:
+
+```
+Context:
+John came to the party to celebrate Mike's birthday.
+He didn't come to the party by car.
+His car had a broken engine and couldn't be driven.
+
+Options:
+a. 
+John came to the party to celebrate Mike's birthday.
+Someone came to the party by car, but not him.
+His car had a broken engine and couldn't be driven.
+b. 
+John came to the party to celebrate Mike's birthday.
+He came somewhere by car, but not to the party.
+His car had a broken engine and couldn't be driven.
+c. 
+John came to the party to celebrate Mike's birthday.
+He came to the party, but not by car.
+His car had a broken engine and couldn't be driven.
+x. None of the above
+
+Answer:
+c
+```
+
+Option `a` is not logically correct since the context does not explicitly mention any means of transportation other than John (the context provides insufficient information to determine whether option `a` is logically correct).
+
+Option `b` is not logically correct since the context states that John wasn't able to drive, which conflicts with this option.
+
+Option `c` is logically correct since the context states that John came to the party and had to use some transportation other than a car.
+
+Therefore answer is `c`
+
+Example 2:
+
+```
+Context:
+The FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .
+The CIA told him it does not do domestic counterespionage  .
+One learns a lot from this book , or seems to , about crippling federal bureaucracy .
+
+Options:
+a. 
+The FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .
+The CIA told him that something carries out domestic counterespionage, but it does not.
+One learns a lot from this book , or seems to , about crippling federal bureaucracy .
+b. 
+The FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .
+The CIA told him it does that, but not domestic counterespionage.
+One learns a lot from this book , or seems to , about crippling federal bureaucracy .
+x. 
+None of the above.
+
+Answer:
+x
+```
+
+Option `a` is not logically correct since the context does not mention organizations other than the CIA that conduct domestic counterespionage (the context provides insufficient information to determine whether option `a` is logically correct).
+
+- Note: the FBI conducts domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.
+  
+Option `b` is not logically correct since the context does not mention CIA activities other than domestic counterespionage (the context provides insufficient information to determine whether option `b` is logically correct).
+
+- Note: the CIA conducts some activity other than domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.
+
+Therefore answer is `x`
+
+## Your Task
+
+```
+{text}
+
+Answer:
+```

@@ -1,0 +1,16 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The newly created negation-focus annotation fields (`label` and `votes`) and
+the original code in this repository are licensed under the Creative Commons
+Attribution 4.0 International License.
+
+To view the license, visit:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+When reusing these components, give appropriate credit, provide a link to the
+license, and indicate whether changes were made.
+
+This license grant does not apply to third-party source text or AMALGUM
+annotation layers included in the released records. Those components remain
+subject to the licenses identified in LICENSES.md, each record's source
+metadata, and the LICENSE.txt file in the corresponding data genre directory.

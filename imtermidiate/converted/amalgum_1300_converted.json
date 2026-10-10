@@ -1,0 +1,72 @@
+[
+    {
+        "sentence_id": 1,
+        "instance_id": 0,
+        "previous_sentence": "Mira prepared the studio wall .",
+        "subsequent_sentence": "The paint remained sealed in its can .",
+        "sentence": "Something painted the blue door , but not mira .",
+        "before_sentence": "Mira did not paint the blue door  .",
+        "focus_words": "mira",
+        "replacement_words": "Something"
+    },
+    {
+        "sentence_id": 1,
+        "instance_id": 1,
+        "previous_sentence": "Mira prepared the studio wall .",
+        "subsequent_sentence": "The paint remained sealed in its can .",
+        "sentence": "Mira painted something , but not the blue door .",
+        "before_sentence": "Mira did not paint the blue door  .",
+        "focus_words": "the blue door",
+        "replacement_words": "something"
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 2,
+        "previous_sentence": "The research team mapped a practice bridge .",
+        "subsequent_sentence": "The group waited for clear weather .",
+        "sentence": "Something crossed the bridge during the storm , but not they .",
+        "before_sentence": "They did not cross the bridge during the storm  .",
+        "focus_words": "they",
+        "replacement_words": "Something"
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 3,
+        "previous_sentence": "The research team mapped a practice bridge .",
+        "subsequent_sentence": "The group waited for clear weather .",
+        "sentence": "They crossed something during the storm , but not the bridge .",
+        "before_sentence": "They did not cross the bridge during the storm  .",
+        "focus_words": "the bridge",
+        "replacement_words": "something"
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 4,
+        "previous_sentence": "The research team mapped a practice bridge .",
+        "subsequent_sentence": "The group waited for clear weather .",
+        "sentence": "They crossed the bridge at some point of time , but not during the storm .",
+        "before_sentence": "They did not cross the bridge during the storm  .",
+        "focus_words": "during the storm",
+        "replacement_words": "at some point of time"
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 5,
+        "previous_sentence": "Engineers activated the test rover .",
+        "subsequent_sentence": "The diagnostic report listed no faults .",
+        "sentence": "Something will operate inside the red chamber , but not the rover .",
+        "before_sentence": "The rover will never operate inside the red chamber  .",
+        "focus_words": "the rover",
+        "replacement_words": "Something"
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 6,
+        "previous_sentence": "Engineers activated the test rover .",
+        "subsequent_sentence": "The diagnostic report listed no faults .",
+        "sentence": "The rover will operate somewhere , but not inside the red chamber .",
+        "before_sentence": "The rover will never operate inside the red chamber  .",
+        "focus_words": "inside the red chamber",
+        "replacement_words": "somewhere"
+    }
+]

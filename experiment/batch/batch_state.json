@@ -1,0 +1,175 @@
+{
+  "models": {
+    "gpt-5.5": {
+      "provider": "openai",
+      "date": "2026-08-17",
+      "current_id": 0,
+      "current_ids": {
+        "amalgum_with_x_batch_input_": 1,
+        "amalgum_without_x_batch_input_": 1
+      }
+    },
+    "claude-opus-4-8": {
+      "provider": "anthropic",
+      "date": "2026-08-17",
+      "current_id": 0,
+      "current_ids": {
+        "amalgum_with_x_batch_input_": 1,
+        "amalgum_without_x_batch_input_": 1
+      }
+    },
+    "gemini-3.5-flash": {
+      "provider": "gemini",
+      "date": "2026-08-17",
+      "current_id": 0,
+      "current_ids": {
+        "amalgum_with_x_batch_input_": 1,
+        "amalgum_without_x_batch_input_": 1
+      }
+    }
+  },
+  "batches": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "id": 0,
+      "input_prefix": "amalgum_with_x_batch_input_",
+      "batch_id": "batch_6a8265511f58819096be63c816799965",
+      "input_file_id": "file-Y85dYGGy7Lgb9t13uNS5Sk",
+      "input_path": "experiment/batch/gpt-5.5/amalgum_with_x_batch_input_0.jsonl",
+      "endpoint": "/v1/chat/completions",
+      "request_count": 3,
+      "status": "completed",
+      "provider_status": "completed",
+      "ordered_at": "2026-08-17T01:35:13.898638+00:00",
+      "updated_at": "2026-08-17T01:37:38.614859+00:00",
+      "output_file_id": "file-Bi2YA6uQWarGf4kG7nhuoU",
+      "error_file_id": null,
+      "output_path": "experiment/batch/results/gpt-5.5/amalgum_with_x_batch_output_0.jsonl",
+      "error_path": null,
+      "request_counts": {
+        "completed": 3,
+        "failed": 0,
+        "total": 3
+      }
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-8",
+      "id": 0,
+      "input_prefix": "amalgum_with_x_batch_input_",
+      "batch_id": "msgbatch_01B25HmDYnJzDRTw4CWMJ4yR",
+      "input_file_id": null,
+      "input_path": "experiment/batch/claude-opus-4-8/amalgum_with_x_batch_input_0.json",
+      "endpoint": null,
+      "request_count": 3,
+      "status": "completed",
+      "provider_status": "ended",
+      "ordered_at": "2026-08-17T01:35:32.232103+00:00",
+      "updated_at": "2026-08-17T01:37:39.563565+00:00",
+      "output_file_id": null,
+      "error_file_id": null,
+      "output_path": "experiment/batch/results/claude-opus-4-8/amalgum_with_x_batch_output_0.jsonl",
+      "error_path": null,
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 0,
+        "succeeded": 3
+      }
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "id": 0,
+      "input_prefix": "amalgum_with_x_batch_input_",
+      "batch_id": "batches/ckemlhzvux9svqztoo488i0gqrnj6m2goywv",
+      "input_file_id": "files/1x4t6nz29ddk",
+      "input_path": "experiment/batch/gemini-3.5-flash/amalgum_with_x_batch_input_0.jsonl",
+      "endpoint": null,
+      "request_count": 3,
+      "status": "completed",
+      "provider_status": "JOB_STATE_SUCCEEDED",
+      "ordered_at": "2026-08-17T01:35:49.977637+00:00",
+      "updated_at": "2026-08-17T01:37:40.829082+00:00",
+      "output_file_id": "files/batch-ckemlhzvux9svqztoo488i0gqrnj6m2goywv",
+      "error_file_id": null,
+      "output_path": "experiment/batch/results/gemini-3.5-flash/amalgum_with_x_batch_output_0.jsonl",
+      "error_path": null,
+      "request_counts": null,
+      "provider_error": null
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "id": 0,
+      "input_prefix": "amalgum_without_x_batch_input_",
+      "batch_id": "batch_6a8265938be4819097576f1edb823505",
+      "input_file_id": "file-JQHzPEN37CozxzYsbrMzNB",
+      "input_path": "experiment/batch/gpt-5.5/amalgum_without_x_batch_input_0.jsonl",
+      "endpoint": "/v1/chat/completions",
+      "request_count": 3,
+      "status": "completed",
+      "provider_status": "completed",
+      "ordered_at": "2026-08-17T01:36:20.352890+00:00",
+      "updated_at": "2026-08-17T01:37:41.523967+00:00",
+      "output_file_id": "file-KUFhPuDAxJS5JaWntk2vLo",
+      "error_file_id": null,
+      "output_path": "experiment/batch/results/gpt-5.5/amalgum_without_x_batch_output_0.jsonl",
+      "error_path": null,
+      "request_counts": {
+        "completed": 3,
+        "failed": 0,
+        "total": 3
+      }
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-4-8",
+      "id": 0,
+      "input_prefix": "amalgum_without_x_batch_input_",
+      "batch_id": "msgbatch_01GjMMVW4QF6oLxfqUFTGAaz",
+      "input_file_id": null,
+      "input_path": "experiment/batch/claude-opus-4-8/amalgum_without_x_batch_input_0.json",
+      "endpoint": null,
+      "request_count": 3,
+      "status": "completed",
+      "provider_status": "ended",
+      "ordered_at": "2026-08-17T01:36:30.412918+00:00",
+      "updated_at": "2026-08-17T01:58:18.238159+00:00",
+      "output_file_id": null,
+      "error_file_id": null,
+      "output_path": "experiment/batch/results/claude-opus-4-8/amalgum_without_x_batch_output_0.jsonl",
+      "error_path": null,
+      "request_counts": {
+        "canceled": 0,
+        "errored": 0,
+        "expired": 0,
+        "processing": 0,
+        "succeeded": 3
+      }
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "id": 0,
+      "input_prefix": "amalgum_without_x_batch_input_",
+      "batch_id": "batches/kowsbb7wsz2zlq69ndrhn3n432720yz4tkas",
+      "input_file_id": "files/o81ohmvkvv40",
+      "input_path": "experiment/batch/gemini-3.5-flash/amalgum_without_x_batch_input_0.jsonl",
+      "endpoint": null,
+      "request_count": 3,
+      "status": "completed",
+      "provider_status": "JOB_STATE_SUCCEEDED",
+      "ordered_at": "2026-08-17T01:36:45.887358+00:00",
+      "updated_at": "2026-08-17T01:53:04.126837+00:00",
+      "output_file_id": "files/batch-kowsbb7wsz2zlq69ndrhn3n432720yz4tkas",
+      "error_file_id": null,
+      "output_path": "experiment/batch/results/gemini-3.5-flash/amalgum_without_x_batch_output_0.jsonl",
+      "error_path": null,
+      "request_counts": null,
+      "provider_error": null
+    }
+  ]
+}

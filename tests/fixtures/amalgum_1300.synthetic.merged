@@ -1,0 +1,78 @@
+Mira	1	Mira	PROPN	-	2	nsubj	-	previous	*	-
+prepared	2	prepare	VERB	-	0	root	-	previous	*	-
+the	3	the	DET	-	5	det	-	previous	*	-
+studio	4	studio	NOUN	-	5	compound	-	previous	*	-
+wall	5	wall	NOUN	-	2	obj	-	previous	*	-
+.	6	.	PUNCT	-	2	punct	-	previous	*	-
+
+Mira	1	Mira	PROPN	-	4	nsubj	-	target	(A0*)	-
+did	2	do	AUX	-	4	aux	-	target	*	-
+not	3	not	ADV	-	4	advmod	-	target	(AM-NEG*)	-
+paint	4	paint	VERB	-	0	root	-	target	(V*)	Y
+the	5	the	DET	-	7	det	-	target	(A1*	-
+blue	6	blue	ADJ	-	7	amod	-	target	*	-
+door	7	door	NOUN	-	4	obj	-	target	*)	-
+.	8	.	PUNCT	-	4	punct	-	target	*	-
+
+The	1	the	DET	-	2	det	-	next	*	-
+paint	2	paint	NOUN	-	3	nsubj	-	next	*	-
+remained	3	remain	VERB	-	0	root	-	next	*	-
+sealed	4	seal	ADJ	-	3	xcomp	-	next	*	-
+in	5	in	ADP	-	7	case	-	next	*	-
+its	6	its	PRON	-	7	nmod:poss	-	next	*	-
+can	7	can	NOUN	-	3	obl	-	next	*	-
+.	8	.	PUNCT	-	3	punct	-	next	*	-
+
+The	1	the	DET	-	3	det	-	previous	*	-
+research	2	research	NOUN	-	3	compound	-	previous	*	-
+team	3	team	NOUN	-	4	nsubj	-	previous	*	-
+mapped	4	map	VERB	-	0	root	-	previous	*	-
+a	5	a	DET	-	7	det	-	previous	*	-
+practice	6	practice	NOUN	-	7	compound	-	previous	*	-
+bridge	7	bridge	NOUN	-	4	obj	-	previous	*	-
+.	8	.	PUNCT	-	4	punct	-	previous	*	-
+
+They	1	they	PRON	-	4	nsubj	-	target	(A0*)	-
+did	2	do	AUX	-	4	aux	-	target	*	-
+not	3	not	ADV	-	4	advmod	-	target	(AM-NEG*)	-
+cross	4	cross	VERB	-	0	root	-	target	(V*)	Y
+the	5	the	DET	-	6	det	-	target	(A1*	-
+bridge	6	bridge	NOUN	-	4	obj	-	target	*)	-
+during	7	during	ADP	-	9	case	-	target	(AM-TMP*	-
+the	8	the	DET	-	9	det	-	target	*	-
+storm	9	storm	NOUN	-	4	obl	-	target	*)	-
+.	10	.	PUNCT	-	4	punct	-	target	*	-
+
+The	1	the	DET	-	2	det	-	next	*	-
+group	2	group	NOUN	-	3	nsubj	-	next	*	-
+waited	3	wait	VERB	-	0	root	-	next	*	-
+for	4	for	ADP	-	6	case	-	next	*	-
+clear	5	clear	ADJ	-	6	amod	-	next	*	-
+weather	6	weather	NOUN	-	3	obl	-	next	*	-
+.	7	.	PUNCT	-	3	punct	-	next	*	-
+
+Engineers	1	engineer	NOUN	-	2	nsubj	-	previous	*	-
+activated	2	activate	VERB	-	0	root	-	previous	*	-
+the	3	the	DET	-	5	det	-	previous	*	-
+test	4	test	NOUN	-	5	compound	-	previous	*	-
+rover	5	rover	NOUN	-	2	obj	-	previous	*	-
+.	6	.	PUNCT	-	2	punct	-	previous	*	-
+
+The	1	the	DET	-	2	det	-	target	(A0*	-
+rover	2	rover	NOUN	-	5	nsubj	-	target	*)	-
+will	3	will	AUX	-	5	aux	-	target	*	-
+never	4	never	ADV	-	5	advmod	-	target	(AM-NEG*)	-
+operate	5	operate	VERB	-	0	root	-	target	(V*)	Y
+inside	6	inside	ADP	-	9	case	-	target	(AM-LOC*	-
+the	7	the	DET	-	9	det	-	target	*	-
+red	8	red	ADJ	-	9	amod	-	target	*	-
+chamber	9	chamber	NOUN	-	5	obl	-	target	*)	-
+.	10	.	PUNCT	-	5	punct	-	target	*	-
+
+The	1	the	DET	-	2	det	-	next	*	-
+diagnostic	2	diagnostic	NOUN	-	3	nsubj	-	next	*	-
+report	3	report	VERB	-	0	root	-	next	*	-
+listed	4	list	VERB	-	3	xcomp	-	next	*	-
+no	5	no	DET	-	6	det	-	next	*	-
+faults	6	fault	NOUN	-	4	obj	-	next	*	-
+.	7	.	PUNCT	-	3	punct	-	next	*	-

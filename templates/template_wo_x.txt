@@ -1,0 +1,63 @@
+# Logically Correct Sentence Selection
+
+You will be given a context and several answer options in the following format:
+
+```
+Context:
+[sentences]
+
+Options:
+a. [sentences]
+b. [sentences]
+...
+```
+
+## Task
+
+Your job is to choose a logically correct option based on the context.
+
+If there are more than one logically correct options, choose the one that is closest to the context.
+
+When you judge the logical correctness of each option, rely solely on the information included in the context and not on common knowledge.
+
+## Example
+
+```
+Context:
+John came to the party to celebrate Mike's birthday.
+He didn't come to the party by car.
+His car had a broken engine and couldn't be driven.
+
+Options:
+a. 
+John came to the party to celebrate Mike's birthday.
+Someone came to the party by car, but not him.
+His car had a broken engine and couldn't be driven.
+b. 
+John came to the party to celebrate Mike's birthday.
+He came somewhere by car, but not to the party.
+His car had a broken engine and couldn't be driven.
+c. 
+John came to the party to celebrate Mike's birthday.
+He came to the party, but not by car.
+His car had a broken engine and couldn't be driven.
+
+Answer:
+c
+```
+
+Option `a` is not logically correct since the context does not explicitly mention any means of transportation other than John (the context provides insufficient information to determine whether option `a` is logically correct).
+
+Option `b` is not logically correct since the context states that John wasn't able to drive, which conflicts with this option.
+
+Option `c` is logically correct since the context states that John came to the party and had to use some transportation other than a car.
+
+Therefore answer is `c`
+
+## Your Task
+
+```
+{text}
+
+Answer:
+```

@@ -1,0 +1,44 @@
+[
+    {
+        "sentence_id": 1,
+        "instance_id": 0,
+        "sentence": "Something painted the blue door , but not mira .",
+        "rewrote": "Something painted the blue door, but it wasn’t Mira."
+    },
+    {
+        "sentence_id": 1,
+        "instance_id": 1,
+        "sentence": "Mira painted something , but not the blue door .",
+        "rewrote": "Mira painted something, but not the blue door."
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 2,
+        "sentence": "Something crossed the bridge during the storm , but not they .",
+        "rewrote": "Something crossed the bridge during the storm, but they didn't."
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 3,
+        "sentence": "They crossed something during the storm , but not the bridge .",
+        "rewrote": "During the storm, they crossed something, but not the bridge."
+    },
+    {
+        "sentence_id": 4,
+        "instance_id": 4,
+        "sentence": "They crossed the bridge at some point of time , but not during the storm .",
+        "rewrote": "They crossed the bridge at some point, but not during the storm."
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 5,
+        "sentence": "Something will operate inside the red chamber , but not the rover .",
+        "rewrote": "Something will operate inside the red chamber, but the rover will not."
+    },
+    {
+        "sentence_id": 7,
+        "instance_id": 6,
+        "sentence": "The rover will operate somewhere , but not inside the red chamber .",
+        "rewrote": "The rover will operate somewhere, but not in the red chamber."
+    }
+]

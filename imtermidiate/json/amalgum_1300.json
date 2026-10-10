@@ -1,0 +1,432 @@
+{
+    "infos": [
+        {
+            "id": 1,
+            "sentence": [
+                {
+                    "word": "Mira",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "did",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "not",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "paint",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "blue",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "door",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "A0",
+            "focus_named_entity": "O",
+            "previous_sentence": "Mira prepared the studio wall .",
+            "subsequent_sentence": "The paint remained sealed in its can ."
+        },
+        {
+            "id": 1,
+            "sentence": [
+                {
+                    "word": "Mira",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "did",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "not",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "paint",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "blue",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "door",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "A1",
+            "focus_named_entity": "O",
+            "previous_sentence": "Mira prepared the studio wall .",
+            "subsequent_sentence": "The paint remained sealed in its can ."
+        },
+        {
+            "id": 4,
+            "sentence": [
+                {
+                    "word": "They",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "did",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "not",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "cross",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "bridge",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "during",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "storm",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "A0",
+            "focus_named_entity": "O",
+            "previous_sentence": "The research team mapped a practice bridge .",
+            "subsequent_sentence": "The group waited for clear weather ."
+        },
+        {
+            "id": 4,
+            "sentence": [
+                {
+                    "word": "They",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "did",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "not",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "cross",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "bridge",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "during",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "storm",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "A1",
+            "focus_named_entity": "O",
+            "previous_sentence": "The research team mapped a practice bridge .",
+            "subsequent_sentence": "The group waited for clear weather ."
+        },
+        {
+            "id": 4,
+            "sentence": [
+                {
+                    "word": "They",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "did",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "not",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "cross",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "bridge",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "during",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "storm",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "AM-TMP",
+            "focus_named_entity": "O",
+            "previous_sentence": "The research team mapped a practice bridge .",
+            "subsequent_sentence": "The group waited for clear weather ."
+        },
+        {
+            "id": 7,
+            "sentence": [
+                {
+                    "word": "The",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "rover",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "will",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "never",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "operate",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "inside",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "red",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "chamber",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "A0",
+            "focus_named_entity": "O",
+            "previous_sentence": "Engineers activated the test rover .",
+            "subsequent_sentence": "The diagnostic report listed no faults ."
+        },
+        {
+            "id": 7,
+            "sentence": [
+                {
+                    "word": "The",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "rover",
+                    "mark": "other",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "will",
+                    "mark": "auxiliary",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "never",
+                    "mark": "negation",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "operate",
+                    "mark": "verb",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "inside",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "the",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "red",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "chamber",
+                    "mark": "focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": "",
+                    "mark": "end_of_focus",
+                    "named_entity": "O"
+                },
+                {
+                    "word": ".",
+                    "mark": "other",
+                    "named_entity": "O"
+                }
+            ],
+            "semantic_role_of_focus": "AM-LOC",
+            "focus_named_entity": "O",
+            "previous_sentence": "Engineers activated the test rover .",
+            "subsequent_sentence": "The diagnostic report listed no faults ."
+        }
+    ]
+}

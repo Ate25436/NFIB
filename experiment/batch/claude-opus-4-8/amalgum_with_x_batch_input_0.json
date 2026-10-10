@@ -1,0 +1,110 @@
+{
+  "requests": [
+    {
+      "custom_id": "amalgum_1",
+      "params": {
+        "model": "claude-opus-4-8",
+        "max_tokens": 64,
+        "messages": [
+          {
+            "role": "user",
+            "content": "# Logically Correct Sentence Selection\n\nYou will be given a context and several answer options in the following format:\n\n```\nContext:\n[sentences]\n\nOptions:\na. [sentences]\nb. [sentences]\n...\nx. None of the above\n```\n\n## Task\n\nYour job is to choose a logically correct option based on the context.\n\nIf there are more than one logically correct options, choose the one that is closest to the context.\n\nIf no options are logically correct, choose x (None of the above).\n\nAn option is not treated as logically correct if it meets one of the following conditions:\n\n- The option conflicts with the context.\n- The context provides insufficient information to determine whether the option is logically correct.\n\nWhen you judge the logical correctness of each option, rely solely on the information included in the context and not on common knowledge.\n\n## Examples\n\nExample 1:\n\n```\nContext:\nJohn came to the party to celebrate Mike's birthday.\nHe didn't come to the party by car.\nHis car had a broken engine and couldn't be driven.\n\nOptions:\na. \nJohn came to the party to celebrate Mike's birthday.\nSomeone came to the party by car, but not him.\nHis car had a broken engine and couldn't be driven.\nb. \nJohn came to the party to celebrate Mike's birthday.\nHe came somewhere by car, but not to the party.\nHis car had a broken engine and couldn't be driven.\nc. \nJohn came to the party to celebrate Mike's birthday.\nHe came to the party, but not by car.\nHis car had a broken engine and couldn't be driven.\nx. None of the above\n\nAnswer:\nc\n```\n\nOption `a` is not logically correct since the context does not explicitly mention any means of transportation other than John (the context provides insufficient information to determine whether option `a` is logically correct).\n\nOption `b` is not logically correct since the context states that John wasn't able to drive, which conflicts with this option.\n\nOption `c` is logically correct since the context states that John came to the party and had to use some transportation other than a car.\n\nTherefore answer is `c`\n\nExample 2:\n\n```\nContext:\nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him it does not do domestic counterespionage  .\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\n\nOptions:\na. \nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him that something carries out domestic counterespionage, but it does not.\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\nb. \nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him it does that, but not domestic counterespionage.\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\nx. \nNone of the above.\n\nAnswer:\nx\n```\n\nOption `a` is not logically correct since the context does not mention organizations other than the CIA that conduct domestic counterespionage (the context provides insufficient information to determine whether option `a` is logically correct).\n\n- Note: the FBI conducts domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.\n  \nOption `b` is not logically correct since the context does not mention CIA activities other than domestic counterespionage (the context provides insufficient information to determine whether option `b` is logically correct).\n\n- Note: the CIA conducts some activity other than domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.\n\nTherefore answer is `x`\n\n## Your Task\n\n```\nContext:\nMira prepared the studio wall .\nMira did not paint the blue door  .\nThe paint remained sealed in its can .\n\nOptions:\na.\nMira prepared the studio wall .\nSomething painted the blue door, but it wasn’t Mira.\nThe paint remained sealed in its can .\nb.\nMira prepared the studio wall .\nMira painted something, but not the blue door.\nThe paint remained sealed in its can .\nx. None of the above\n\nAnswer:\n```\n"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "enum": [
+                    "a",
+                    "b",
+                    "x"
+                  ]
+                }
+              },
+              "required": [
+                "label"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "custom_id": "amalgum_4",
+      "params": {
+        "model": "claude-opus-4-8",
+        "max_tokens": 64,
+        "messages": [
+          {
+            "role": "user",
+            "content": "# Logically Correct Sentence Selection\n\nYou will be given a context and several answer options in the following format:\n\n```\nContext:\n[sentences]\n\nOptions:\na. [sentences]\nb. [sentences]\n...\nx. None of the above\n```\n\n## Task\n\nYour job is to choose a logically correct option based on the context.\n\nIf there are more than one logically correct options, choose the one that is closest to the context.\n\nIf no options are logically correct, choose x (None of the above).\n\nAn option is not treated as logically correct if it meets one of the following conditions:\n\n- The option conflicts with the context.\n- The context provides insufficient information to determine whether the option is logically correct.\n\nWhen you judge the logical correctness of each option, rely solely on the information included in the context and not on common knowledge.\n\n## Examples\n\nExample 1:\n\n```\nContext:\nJohn came to the party to celebrate Mike's birthday.\nHe didn't come to the party by car.\nHis car had a broken engine and couldn't be driven.\n\nOptions:\na. \nJohn came to the party to celebrate Mike's birthday.\nSomeone came to the party by car, but not him.\nHis car had a broken engine and couldn't be driven.\nb. \nJohn came to the party to celebrate Mike's birthday.\nHe came somewhere by car, but not to the party.\nHis car had a broken engine and couldn't be driven.\nc. \nJohn came to the party to celebrate Mike's birthday.\nHe came to the party, but not by car.\nHis car had a broken engine and couldn't be driven.\nx. None of the above\n\nAnswer:\nc\n```\n\nOption `a` is not logically correct since the context does not explicitly mention any means of transportation other than John (the context provides insufficient information to determine whether option `a` is logically correct).\n\nOption `b` is not logically correct since the context states that John wasn't able to drive, which conflicts with this option.\n\nOption `c` is logically correct since the context states that John came to the party and had to use some transportation other than a car.\n\nTherefore answer is `c`\n\nExample 2:\n\n```\nContext:\nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him it does not do domestic counterespionage  .\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\n\nOptions:\na. \nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him that something carries out domestic counterespionage, but it does not.\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\nb. \nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him it does that, but not domestic counterespionage.\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\nx. \nNone of the above.\n\nAnswer:\nx\n```\n\nOption `a` is not logically correct since the context does not mention organizations other than the CIA that conduct domestic counterespionage (the context provides insufficient information to determine whether option `a` is logically correct).\n\n- Note: the FBI conducts domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.\n  \nOption `b` is not logically correct since the context does not mention CIA activities other than domestic counterespionage (the context provides insufficient information to determine whether option `b` is logically correct).\n\n- Note: the CIA conducts some activity other than domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.\n\nTherefore answer is `x`\n\n## Your Task\n\n```\nContext:\nThe research team mapped a practice bridge .\nThey did not cross the bridge during the storm  .\nThe group waited for clear weather .\n\nOptions:\na.\nThe research team mapped a practice bridge .\nSomething crossed the bridge during the storm, but they didn't.\nThe group waited for clear weather .\nb.\nThe research team mapped a practice bridge .\nDuring the storm, they crossed something, but not the bridge.\nThe group waited for clear weather .\nc.\nThe research team mapped a practice bridge .\nThey crossed the bridge at some point, but not during the storm.\nThe group waited for clear weather .\nx. None of the above\n\nAnswer:\n```\n"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "enum": [
+                    "a",
+                    "b",
+                    "c",
+                    "x"
+                  ]
+                }
+              },
+              "required": [
+                "label"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "custom_id": "amalgum_7",
+      "params": {
+        "model": "claude-opus-4-8",
+        "max_tokens": 64,
+        "messages": [
+          {
+            "role": "user",
+            "content": "# Logically Correct Sentence Selection\n\nYou will be given a context and several answer options in the following format:\n\n```\nContext:\n[sentences]\n\nOptions:\na. [sentences]\nb. [sentences]\n...\nx. None of the above\n```\n\n## Task\n\nYour job is to choose a logically correct option based on the context.\n\nIf there are more than one logically correct options, choose the one that is closest to the context.\n\nIf no options are logically correct, choose x (None of the above).\n\nAn option is not treated as logically correct if it meets one of the following conditions:\n\n- The option conflicts with the context.\n- The context provides insufficient information to determine whether the option is logically correct.\n\nWhen you judge the logical correctness of each option, rely solely on the information included in the context and not on common knowledge.\n\n## Examples\n\nExample 1:\n\n```\nContext:\nJohn came to the party to celebrate Mike's birthday.\nHe didn't come to the party by car.\nHis car had a broken engine and couldn't be driven.\n\nOptions:\na. \nJohn came to the party to celebrate Mike's birthday.\nSomeone came to the party by car, but not him.\nHis car had a broken engine and couldn't be driven.\nb. \nJohn came to the party to celebrate Mike's birthday.\nHe came somewhere by car, but not to the party.\nHis car had a broken engine and couldn't be driven.\nc. \nJohn came to the party to celebrate Mike's birthday.\nHe came to the party, but not by car.\nHis car had a broken engine and couldn't be driven.\nx. None of the above\n\nAnswer:\nc\n```\n\nOption `a` is not logically correct since the context does not explicitly mention any means of transportation other than John (the context provides insufficient information to determine whether option `a` is logically correct).\n\nOption `b` is not logically correct since the context states that John wasn't able to drive, which conflicts with this option.\n\nOption `c` is logically correct since the context states that John came to the party and had to use some transportation other than a car.\n\nTherefore answer is `c`\n\nExample 2:\n\n```\nContext:\nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him it does not do domestic counterespionage  .\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\n\nOptions:\na. \nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him that something carries out domestic counterespionage, but it does not.\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\nb. \nThe FBI initially showed little interest , and he had the impression other federal security agencies were tangled up in legal red tape .\nThe CIA told him it does that, but not domestic counterespionage.\nOne learns a lot from this book , or seems to , about crippling federal bureaucracy .\nx. \nNone of the above.\n\nAnswer:\nx\n```\n\nOption `a` is not logically correct since the context does not mention organizations other than the CIA that conduct domestic counterespionage (the context provides insufficient information to determine whether option `a` is logically correct).\n\n- Note: the FBI conducts domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.\n  \nOption `b` is not logically correct since the context does not mention CIA activities other than domestic counterespionage (the context provides insufficient information to determine whether option `b` is logically correct).\n\n- Note: the CIA conducts some activity other than domestic counterespionage; however, this is common knowledge and not included in the context, that is, this information should be excluded when judging the logical correctness of the option.\n\nTherefore answer is `x`\n\n## Your Task\n\n```\nContext:\nEngineers activated the test rover .\nThe rover will never operate inside the red chamber  .\nThe diagnostic report listed no faults .\n\nOptions:\na.\nEngineers activated the test rover .\nSomething will operate inside the red chamber, but the rover will not.\nThe diagnostic report listed no faults .\nb.\nEngineers activated the test rover .\nThe rover will operate somewhere, but not in the red chamber.\nThe diagnostic report listed no faults .\nx. None of the above\n\nAnswer:\n```\n"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "enum": [
+                    "a",
+                    "b",
+                    "x"
+                  ]
+                }
+              },
+              "required": [
+                "label"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      }
+    }
+  ]
+}

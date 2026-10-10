@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using these metadata."
+type: dataset
+title: "Negation Focus Annotation Dataset"
+abstract: "An English dataset for selecting logically supported focus interpretations of negated sentences across five AMALGUM web genres."
+authors:
+  - name: "Ate25436"
+repository-code: "https://github.com/Ate25436/negation_focus_annotation_test"
+url: "https://github.com/Ate25436/negation_focus_annotation_test"
+version: "1.0.0-rc1"
+keywords:
+  - "negation focus"
+  - "natural language inference"
+  - "computational linguistics"
+  - "annotation"
+  - "AMALGUM"
+
